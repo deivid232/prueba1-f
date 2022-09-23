@@ -1,0 +1,22 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/api/v1/mainnet/[...slug]": "pages/api/v1/mainnet/[...slug].js",
+  "/api/v1/testnet/[...slug]": "pages/api/v1/testnet/[...slug].js",
+  "/blocks": "pages/blocks.html",
+  "/dao/ambassador": "pages/dao/ambassador.html",
+  "/dao/developer": "pages/dao/developer.html",
+  "/dao/invoices/[username]": "pages/dao/invoices/[username].html",
+  "/globalnames": "pages/globalnames.html",
+  "/metrics": "pages/metrics.html",
+  "/namespaces": "pages/namespaces.html",
+  "/scan": "pages/scan.html",
+  "/test": "pages/test.html",
+  "/tokens": "pages/tokens.html",
+  "/transactions": "pages/transactions.html",
+  "/trustlist": "pages/trustlist.html",
+  "/about": "pages/about.js",
+  "/": "pages/index.js",
+  "/scan/[addr]": "pages/scan/[addr].js"
+}

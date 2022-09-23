@@ -1,0 +1,41 @@
+.container {
+  color: var(--theme-page-text);
+  background: var(--theme-page-background);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem 0.25rem;
+  overflow: hidden;
+  font-size: var(--font-normal);
+  box-shadow: var(--card-shadow-border), var(--card-shadow);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.row:nth-of-type(odd) {
+  background: #aaa1;
+}
+
+.rowKey,
+.rowValue {
+  text-overflow: ellipsis;
+}
+
+.rowValue {
+  display: inline-block;
+  word-break: break-all;
+}
+
+/* mobile screen classes */
+@media (max-width: 768px) {
+  .container {
+    padding: 0.25rem 0.25rem;
+    box-shadow: var(--card-shadow-border);
+  }
+  .row {
+    grid-template-columns: 1fr 1fr;
+  }
+}

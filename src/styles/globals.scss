@@ -1,0 +1,76 @@
+@use './colors' as *;
+@use './default' as *;
+@use './fonts' as *;
+@use './keyframes' as *;
+@use './theme' as *;
+@use './variables' as *;
+
+.apexcharts-toolbar-custom-icon {
+  /* background-color: var(--theme-page-text); */
+  border-radius: 1rem;
+  background: white;
+  font-size: 0.6rem;
+  padding: 0 0.3rem;
+  margin: 0 0.05rem;
+}
+
+::-webkit-scrollbar {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--theme-page-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--theme-page-text);
+  border-radius: var(--space-xs);
+}
+
+.slideRowAnim {
+  animation: slideIn 2s;
+}
+
+.fadeInAnim {
+  animation: fadeIn 2s;
+}
+
+#__portal {
+  all: unset;
+}
+
+#infoCard {
+  margin-top: 10px;
+  color: #333;
+}
+
+#navbarComponent {
+  animation: slideDown 2s;
+}
+
+#richlist {
+  animation: slideDown 3s;
+  overflow: hidden;
+  scrollbar-width: 1px;
+}
+
+#trustlist {
+  animation: slideDown 3s;
+}
+
+#chartLeft {
+  animation: slideRight 3s;
+}
+
+#chartRight {
+  animation: slideLeft 3s;
+}
+
+.center-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  height: 50vh;
+}

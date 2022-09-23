@@ -1,0 +1,14 @@
+.page {
+  color: var(--theme-page-text);
+}
+
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top_pagination {
+  margin-bottom: 1rem;
+}
